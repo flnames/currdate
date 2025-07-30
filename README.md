@@ -1,0 +1,2 @@
+# currdate
+Gives a date
