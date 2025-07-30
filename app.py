@@ -23,5 +23,5 @@ def currdate():
     # Add one month per interval to the BASE_DATE
     current_date = BASE_DATE + relativedelta(months=intervals_passed)
 
-    return jsonify({'currentDate': current_date.strftime('%Y-%m-%d')})
+    return jsonify({'currentDate': current_date.strftime('%Y-%m-%d'),'time':elapsed_time % INTERVAL})
 
