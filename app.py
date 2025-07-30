@@ -4,7 +4,7 @@ from dateutil.relativedelta import relativedelta
 
 app = Flask(__name__)
 
-BASE_DATE = datetime(2023, 1, 1)
+BASE_DATE = datetime(2020, 5, 1)
 SERVICE_START_TIME = datetime.utcnow()
 INTERVAL = timedelta(minutes=5)
 
